@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:medical/Screens/Views/appointment.dart';
-import 'package:medical/Screens/Views/find_doctor.dart';
+import 'package:medical/Screens/Views/find_ai.dart';
 import 'package:medical/Screens/Widgets/date_select.dart';
 import 'package:medical/Screens/Widgets/doctorList.dart';
 import 'package:medical/Screens/Widgets/list_doctor1.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:medical/Screens/Views/doctor_details_screen.dart';
-import 'package:medical/Screens/Views/find_doctor.dart';
+import 'package:medical/Screens/Views/find_ai.dart';
 import 'package:medical/Screens/Widgets/doctorList.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
@@ -113,7 +113,7 @@ class appointment extends StatelessWidget {
                             filterQuality: FilterQuality.high,
                           )),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 10,
                     ),
                     Expanded(
@@ -128,7 +128,7 @@ class appointment extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Padding(

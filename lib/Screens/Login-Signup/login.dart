@@ -163,19 +163,19 @@ class login extends StatelessWidget {
             ],
           ),
           const SizedBox(
-            height: 30,
+            height: 80,
           ),
           auth_social_logins(
               logo: "images/google.png", text: "Sign in with Google"),
           const SizedBox(
             height: 20,
           ),
-          auth_social_logins(logo: "images/apple.png", text: "Sign in Apple"),
-          const SizedBox(
-            height: 20,
-          ),
-          auth_social_logins(
-              logo: "images/facebook.png", text: "Sign in facebook")
+          // auth_social_logins(logo: "images/apple.png", text: "Sign in Apple"),
+          // const SizedBox(
+          //   height: 20,
+          // ),
+          // auth_social_logins(
+          //     logo: "images/facebook.png", text: "Sign in facebook")
         ]),
       ),
     );

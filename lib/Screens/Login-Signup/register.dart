@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:medical/Screens/Login-Signup/login.dart';
 import 'package:medical/Screens/Login-Signup/login_signup.dart';
 import 'package:medical/Screens/Widgets/Auth_text_field.dart';
+import 'package:medical/Screens/Widgets/auth_social_login.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
@@ -166,6 +167,32 @@ class register extends StatelessWidget {
           ),
           const SizedBox(
             height: 30,
+          ),
+          const Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Expanded(child: Divider()),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10),
+                child: Text(
+                  "or",
+                  style: TextStyle(
+                    fontSize: 14,
+                    color: Colors.grey,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+              Expanded(child: Divider()),
+            ],
+          ),
+          const SizedBox(
+            height: 20,
+          ),
+          auth_social_logins(
+              logo: "images/google.png", text: "Sign up with Google"),
+          const SizedBox(
+            height: 20,
           ),
         ]),
       ),
